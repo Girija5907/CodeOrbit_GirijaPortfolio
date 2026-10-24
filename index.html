@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Girija S | Computer Science &amp; AI Student Portfolio</title>
+  <meta name="description" content="Professional portfolio of Girija S, B.Sc. Computer Science with Artificial Intelligence student at PERI College of Arts and Science." />
+  <meta name="author" content="Girija S" />
+
+  <!-- Open Graph / Social Sharing Meta -->
+  <meta property="og:title" content="Girija S | Computer Science &amp; AI Student Portfolio" />
+  <meta property="og:description" content="Professional portfolio of Girija S, B.Sc. Computer Science with Artificial Intelligence student at PERI College of Arts and Science." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       Site Header / Navigation
+       ======================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="brand" aria-label="Girija S - Home">
+        <div class="brand-avatar" aria-hidden="true">GS</div>
+        <div class="brand-text-block">
+          <span class="brand-name">Girija S</span>
+          <span class="brand-role">CS &amp; AI Undergraduate</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Direct Contact CTA -->
+        <a href="#contact" class="header-cta-btn">
+          <span>Get In Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Navigation Hamburger Toggle -->
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         1. HOME / HERO SECTION (#home)
+         ======================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Typographic Introduction -->
+          <div class="hero-content">
+            <h1 class="hero-headline">
+              Hi, I'm <span class="text-gradient">Girija S</span>
+            </h1>
+
+            <div class="hero-role">
+              <span>Computer Science and AI student</span>
+            </div>
+
+            <p class="hero-bio">
+              Undergraduate at <strong>PERI College of Arts and Science</strong> deeply passionate about <strong>Artificial Intelligence</strong>, <strong>Full Stack Development</strong>, and <strong>Data Analytics</strong>. Driven by continuous learning, problem-solving, and engineering practical technology solutions that make a meaningful difference.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Profile Card Visual -->
+          <div class="hero-visual">
+            <div class="hero-profile-card">
+              <div class="avatar-large" aria-label="Girija S Initials Avatar">
+                GS
+              </div>
+
+              <h2 class="hero-profile-name">Girija S</h2>
+              <p class="hero-profile-title">Computer Science &amp; AI Student</p>
+
+              <div class="hero-profile-meta">
+                <div class="hero-meta-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                  <span>B.Sc. CS with AI · PERI College (2025–2028)</span>
+                </div>
+
+                <div class="hero-meta-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Kanchipuram district - 631606, Tamil Nadu</span>
+                </div>
+
+                <div class="hero-meta-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Career: AI, Full Stack &amp; Data Analytics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Metrics Strip -->
+        <div class="metrics-strip">
+          <div class="metric-item">
+            <div class="metric-num">02 <span class="accent-text">+</span></div>
+            <span class="metric-label">Completed Projects</span>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num">03 <span class="accent-text">🏆</span></div>
+            <span class="metric-label">Symposium Awards</span>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num">03 <span class="accent-text">📜</span></div>
+            <span class="metric-label">Technical Certifications</span>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num">2028 <span class="accent-text">🎓</span></div>
+            <span class="metric-label">Expected Graduation</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. ABOUT ME SECTION (#about)
+         ======================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            An enthusiastic undergraduate student combining computational fundamentals with a passion for building user-centric digital tools.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative Biography -->
+          <div class="about-narrative">
+            <p>
+              I am currently pursuing my <strong>B.Sc. in Computer Science with Artificial Intelligence</strong> at <strong>PERI College of Arts and Science</strong> (2025 – 2028). My academic journey is centered around developing solid computational logic, exploring artificial intelligence paradigms, and mastering the tools needed for modern full-stack web engineering.
+            </p>
+            <p>
+              I am passionate about how <strong>Artificial Intelligence</strong> and <strong>Data Analytics</strong> can transform raw information into meaningful, actionable insights, and how <strong>Full Stack Web Development</strong> brings those insights directly into the hands of users through clean, accessible interfaces.
+            </p>
+            <p>
+              Beyond the classroom, I actively compete in collegiate technical symposiums, hackathons, and debugging contests. These experiences have tested and strengthened my abilities to diagnose tricky code issues under time pressure, design intuitive user experiences, and collaborate effectively within dynamic peer teams.
+            </p>
+            <p>
+              As a dedicated learner, I value disciplined study habits, open communication, and the continuous refinement of practical programming skills.
+            </p>
+          </div>
+
+          <!-- Feature Cards Grid -->
+          <div class="about-cards-grid">
+            
+            <div class="about-feature-card">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m18 16 4-4-4-4"></path>
+                  <path d="m6 8-4 4 4 4"></path>
+                  <path d="m14.5 4-5 16"></path>
+                </svg>
+              </div>
+              <div class="about-feature-content">
+                <h4>Hands-On Problem Solver</h4>
+                <p>Award-winning Python debugger who enjoys tackling algorithmic hurdles, syntax anomalies, and logical puzzles.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-card">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20"></path>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="about-feature-content">
+                <h4>AI &amp; Data Focused</h4>
+                <p>Curious about intelligent systems, predictive algorithms, data cleaning, and real-time visualization.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-card">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="about-feature-content">
+                <h4>Teamwork &amp; Communication</h4>
+                <p>Effective collaborator skilled in coordinating group presentations, symposium entries, and technical demonstrations.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SKILLS SECTION (#skills)
+         ======================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Core Competencies</span>
+          <h2 class="section-title">Skills &amp; Capabilities</h2>
+          <p class="section-subtitle">
+            A balanced foundation of programming fundamentals and professional collaboration tools cultivated through coursework and competitions.
+          </p>
+          <div class="section-header-actions">
+            <button type="button" class="add-entry-btn" id="openAddSkillBtn" aria-label="Add new skill">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+              <span>+ Add Skill</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="skills-container">
+          
+          <!-- Column 1: Technical Skills -->
+          <div class="skills-column">
+            <div class="skills-column-header">
+              <div class="skills-column-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skills-column-title">Technical Skills</h3>
+                <p class="skills-column-desc">Foundational programming &amp; software principles</p>
+              </div>
+            </div>
+
+            <div class="skills-items-grid" id="technicalSkillsGrid">
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m10 20-1.25-2.5-2.5-1.25 2.5-1.25L10 12.5l1.25 2.5 2.5 1.25-2.5 1.25z"></path>
+                    <path d="M7 6V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3"></path>
+                    <path d="M3 10h18"></path>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Python Fundamentals</span>
+                  <span class="skill-detail">Core syntax, data structures, conditional logic, functions, and competitive debugging (1st Prize Winner at DEVXPLORES-2K26).</span>
+                </div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                    <line x1="6" y1="1" x2="6" y2="4"></line>
+                    <line x1="10" y1="1" x2="10" y2="4"></line>
+                    <line x1="14" y1="1" x2="14" y2="4"></line>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Java Fundamentals</span>
+                  <span class="skill-detail">Object-Oriented Programming (OOP) concepts, class hierarchies, method structuring, and robust error handling.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Professional Skills -->
+          <div class="skills-column">
+            <div class="skills-column-header">
+              <div class="skills-column-icon violet">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skills-column-title">Professional Skills</h3>
+                <p class="skills-column-desc">Workplace collaboration, design &amp; productivity suites</p>
+              </div>
+            </div>
+
+            <div class="skills-items-grid" id="professionalSkillsGrid">
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Teamwork &amp; Leadership</span>
+                  <span class="skill-detail">Active collaboration, team task distribution, and guiding peer teams during symposium presentations.</span>
+                </div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Communication &amp; Fast Learning</span>
+                  <span class="skill-detail">Articulate verbal explanation of technical topics and swift adaptability to new tools and frameworks.</span>
+                </div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Canva Visual Design</span>
+                  <span class="skill-detail">Infographic and poster creation (Awarded 2nd Prize in Poster Parade at PERI Cognizance 2k25).</span>
+                </div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-icon-badge">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                  </svg>
+                </div>
+                <div class="skill-info">
+                  <span class="skill-name">Microsoft Office Suite (Word, Excel, PowerPoint)</span>
+                  <span class="skill-detail">Technical documentation in Word, data organization in Excel, and engaging slide decks in PowerPoint.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. EDUCATION SECTION (#education)
+         ======================================================================== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            Formal undergraduate academic study focusing on modern computer science and artificial intelligence.
+          </p>
+        </div>
+
+        <div class="education-container">
+          <div class="education-card">
+            
+            <div class="edu-header-row">
+              <div>
+                <h3 class="edu-degree">B.Sc. Computer Science with Artificial Intelligence</h3>
+                <p class="edu-institution">PERI College of Arts and Science</p>
+              </div>
+              <span class="edu-period-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                2025 – 2028 · 3-Year Degree Program
+              </span>
+            </div>
+
+            <div class="edu-meta-strip">
+              <div class="edu-meta-point">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+                <span><strong>Status:</strong> Undergraduate Student</span>
+              </div>
+
+              <div class="edu-meta-point">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span><strong>Location:</strong> Kanchipuram district, Tamil Nadu</span>
+              </div>
+
+              <div class="edu-meta-point">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20"></path>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+                <span><strong>Specialization:</strong> Artificial Intelligence &amp; Data Analytics</span>
+              </div>
+            </div>
+
+            <p class="edu-description">
+              Engaged in comprehensive study of computer science foundations, algorithm analysis, artificial intelligence principles, relational databases, and modern programming languages. Continuously applying classroom theory to hands-on project implementations and competitive symposiums.
+            </p>
+
+            <h4 class="edu-coursework-title">Key Academic Domains</h4>
+            <div class="edu-tags">
+              <span class="edu-tag">Artificial Intelligence</span>
+              <span class="edu-tag">Data Structures &amp; Algorithms</span>
+              <span class="edu-tag">Python Programming</span>
+              <span class="edu-tag">Java OOP</span>
+              <span class="edu-tag">Web Technologies</span>
+              <span class="edu-tag">Database Management</span>
+              <span class="edu-tag">Problem Solving &amp; Debugging</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. PROJECTS SECTION (#projects) - SEPARATE SECTION
+         ======================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Portfolio Works</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Frontend web applications developed with clean architectures, responsive layouts, and interactive user experiences.
+          </p>
+          <div class="section-header-actions">
+            <button type="button" class="add-entry-btn" id="openAddProjectBtn" aria-label="Add new project">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+              <span>+ Add Project</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card">
+            <div class="project-content">
+              <span class="project-meta-kicker">Project 01 · Frontend Application</span>
+              <h3 class="project-title">GiftTrack</h3>
+              <p class="project-desc">Tracking gifts of family functions (Only-Frontend). Built with React 19, TypeScript, Tailwind CSS v4, Lucide Icons, and LocalStorage persistence.</p>
+              <div class="project-actions">
+                <a href="https://github.com/Girija5907/GiftTrack" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">GitHub Repository</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <span class="project-meta-kicker">Project 02 · Frontend Application</span>
+              <h3 class="project-title">CineBook</h3>
+              <p class="project-desc">Online movie ticket booking application (Only-Frontend). Built with React 19, TypeScript, Tailwind CSS v4, Motion, Vite 8, and Vercel hosting.</p>
+              <div class="project-actions">
+                <a href="https://github.com/Girija5907/CineBook" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">GitHub Repository</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. ACHIEVEMENTS SECTION (#achievements) - SEPARATE SECTION
+         ======================================================================== -->
+    <section class="section section-alt" id="achievements">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Honors &amp; Recognition</span>
+          <h2 class="section-title">Achievements &amp; Awards</h2>
+          <p class="section-subtitle">
+            Prizes and competitive recognition won across intercollegiate and intracollegiate symposiums.
+          </p>
+          <div class="section-header-actions">
+            <button type="button" class="add-entry-btn" id="openAddAchievementBtn" aria-label="Add new achievement">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+              <span>+ Add Achievement</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="achievements-grid" id="achievementsGrid">
+          <!-- Populated dynamically with "Visit Certificate" buttons by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. CERTIFICATIONS SECTION (#certifications) - SEPARATE SECTION
+         ======================================================================== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Credentials &amp; Courses</span>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">
+            Government board examination qualifications and verified online e-learning course completions.
+          </p>
+          <div class="section-header-actions">
+            <button type="button" class="add-entry-btn" id="openAddCertBtn" aria-label="Add new certification">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+              <span>+ Add Certification</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="certifications-grid" id="certificationsGrid">
+          <!-- Populated dynamically with "Visit Certificate" buttons by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. CONTACT SECTION (#contact) - SEPARATE SECTION (Clean 4-Card Grid)
+         ======================================================================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">
+            Feel free to connect directly for internship opportunities, technical collaborations, or discussions in AI and Full Stack Development.
+          </p>
+        </div>
+
+        <!-- Clean 4-Card Contact Grid (No Form) -->
+        <div class="contact-grid">
+          
+          <!-- 1. Email Me Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email Address</span>
+              <span class="contact-card-val">girijasabari5907@gmail.com</span>
+              <a href="mailto:girijasabari5907@gmail.com" class="contact-card-link">
+                <span>Send an email</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. GitHub Profile Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">GitHub Profile</span>
+              <span class="contact-card-val">github.com/Girija5907</span>
+              <a href="https://github.com/Girija5907" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                <span>View GitHub repositories</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. LinkedIn Profile Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">LinkedIn Profile</span>
+              <span class="contact-card-val">Girija S</span>
+              <a href="https://www.linkedin.com/in/girija-s-a9a02a368" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                <span>Connect on LinkedIn</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Location Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Location</span>
+              <span class="contact-card-val" style="white-space: normal; font-size: 0.9375rem;">
+                No:7, Andal Nagar, Ullavur, Kanchipuram district - 631606
+              </span>
+              <span style="font-size: 0.8125rem; color: var(--text-muted);">Tamil Nadu, India</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Site Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <div class="footer-brand">
+          <div class="brand" style="margin-bottom: 12px;">
+            <div class="brand-avatar" aria-hidden="true">GS</div>
+            <span class="brand-name">Girija S</span>
+          </div>
+          <p>
+            B.Sc. Computer Science with Artificial Intelligence student at PERI College of Arts and Science.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About Me</a>
+            <a href="#skills" class="footer-link">Skills</a>
+            <a href="#education" class="footer-link">Education</a>
+            <a href="#projects" class="footer-link">Projects</a>
+            <a href="#achievements" class="footer-link">Achievements</a>
+            <a href="#certifications" class="footer-link">Certifications</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-links">
+            <a href="mailto:girijasabari5907@gmail.com" class="footer-link">Email</a>
+            <a href="https://github.com/Girija5907" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/girija-s-a9a02a368" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          Designed and built by <strong>Girija S</strong> &copy; <span id="currentYear">2026</span>. All rights reserved.
+        </div>
+        <div>
+          Computer Science &amp; Artificial Intelligence Portfolio
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Project Details Modal Window -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-label="Project Details">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Certificate Lightbox Modal Window -->
+  <div class="modal-overlay" id="certificateModal" role="dialog" aria-modal="true" aria-label="Certificate Viewer">
+    <div class="modal-container certificate-modal-container">
+      <button type="button" class="modal-close-btn" id="certModalCloseBtn" aria-label="Close certificate viewer">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="certModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Dynamic Add Entry Modal (Skills, Projects, Achievements, Certifications) -->
+  <div class="modal-overlay" id="entryModal" role="dialog" aria-modal="true" aria-label="Add Portfolio Item">
+    <div class="modal-container" style="max-width: 620px;">
+      <button type="button" class="modal-close-btn" id="entryModalCloseBtn" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="entryModalHeader" style="margin-bottom: 20px;">
+        <h3 id="entryModalTitle" style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 4px;">Add New Item</h3>
+        <p id="entryModalSubtitle" style="font-size: 0.875rem; color: var(--text-secondary);">Fill in the details to add to your portfolio.</p>
+      </div>
+      <form id="entryModalForm">
+        <div id="entryModalBody"></div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="entryModalCancelBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary btn-sm" id="entryModalSubmitBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            Save Entry
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
